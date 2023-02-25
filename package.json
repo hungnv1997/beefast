@@ -1,14 +1,14 @@
 {
-  "name": "change-me",
-  "version": "0.0.0",
-  "description": "...",
+  "name": "bee-fast",
+  "version": "0.0.1",
+  "description": "",
   "keywords": [],
-  "main": "dist/change-me.umd.js",
-  "module": "dist/change-me.es.js",
+  "main": "dist/bee-fast.umd.js",
+  "module": "dist/bee-fast.es.js",
   "exports": {
     ".": {
-      "require": "./dist/change-me.umd.js",
-      "import": "./dist/change-me.es.js"
+      "require": "./dist/bee-fast.umd.js",
+      "import": "./dist/bee-fast.es.js"
     }
   },
   "typings": "dist/index.d.ts",
