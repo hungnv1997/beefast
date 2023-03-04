@@ -23,17 +23,22 @@ export function isEmptyObject(objectToCheck: any): boolean {
 }
 
 export function formatNumberToDecimal(value: any, decimal: number) {
-    if (value) {
-      if (decimal) {
-        return Number(value)
-          .toFixed(decimal)
-          .toString()
-          .replace(/\d(?=\d*\.\d)(?=(?:\d{3})+(?!\d))/g, "$&,");
-      } else {
-        return Number(value)
-          .toFixed(decimal)
-          .toString()
-          .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
-      }
+  function formatNumber(value: any, decimal: number){
+    if (decimal) {
+      return Number(value)
+        .toFixed(decimal)
+        .toString()
+        .replace(/\d(?=\d*\.\d)(?=(?:\d{3})+(?!\d))/g, "$&,");
+    } else {
+      return Number(value)
+        .toFixed(decimal)
+        .toString()
+        .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
     }
+  }
+  if(isEmpty(value)){
+    return formatNumber(0,decimal)
+  }else{
+    return  formatNumber(value,decimal)
+  }
   }
