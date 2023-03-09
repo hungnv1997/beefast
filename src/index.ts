@@ -1,4 +1,8 @@
-import { isEmpty,isEmptyObject,formatNumberToDecimal } from './checkFormat/format'
+import {
+  formatNumberToDecimal,
+  isEmpty,
+  isEmptyObject,
+} from './checkFormat/format'
 import { mapToHankaku } from './jaLang/jaLang'
 export { isEmpty,isEmptyObject,formatNumberToDecimal,mapToHankaku }
 /**
