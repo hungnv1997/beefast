@@ -8,10 +8,10 @@ One of the main features of Bee-fast is its focus on functional programming prin
 ## Usage
 1. formatDate()
 ```javascript
-var date = require('s-date');
+import {formatDate} from "bee-fast"
 
 var myBirthday = new Date(1994, 10, 7);
-date('{mm}/{dd}/{yyyy}', myBirthday); // '11/07/1994'
+formatDate('{mm}/{dd}/{yyyy}', myBirthday); // '11/07/1994'
 ```
 Example: For January 2, 2053 4:30pm + 45 seconds
 
