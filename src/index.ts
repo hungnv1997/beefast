@@ -4,7 +4,8 @@ import {
   isEmptyObject,
 } from './checkFormat/format'
 import { mapToHankaku } from './jaLang/jaLang'
-export { isEmpty,isEmptyObject,formatNumberToDecimal,mapToHankaku }
+import { formatDate } from './dateTime/dateTime'
+export { isEmpty,isEmptyObject,formatNumberToDecimal,mapToHankaku,formatDate }
 /**
  *
  * @param {String} name

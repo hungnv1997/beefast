@@ -1,6 +1,6 @@
 {
   "name": "bee-fast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "keywords": [],
   "main": "dist/bee-fast.umd.js",
@@ -11,6 +11,11 @@
       "import": "./dist/bee-fast.es.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungnv1997/beefast.git"
+  },
+  "homepage": "https://github.com/hungnv1997/beefast#readme",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
