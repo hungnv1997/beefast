@@ -6,7 +6,8 @@ Bee-fast is an npm package designed for functional programming in JavaScript app
 One of the main features of Bee-fast is its focus on functional programming principles. The package is designed to be modular and composable, with each function designed to operate independently and produce predictable results. This makes it easy to incorporate Bee-fast into your functional programming workflow, allowing you to build robust and scalable applications with ease.
 
 ## Usage
-1. formatDate()
+##### Date Time
+##### 1. formatDate()
 ```javascript
 import {formatDate} from "bee-fast"
 
