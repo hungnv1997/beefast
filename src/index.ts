@@ -5,7 +5,9 @@ import {
 } from './checkFormat/format'
 import { mapToHankaku } from './jaLang/jaLang'
 import { formatDate } from './dateTime/dateTime'
-export { isEmpty,isEmptyObject,formatNumberToDecimal,mapToHankaku,formatDate }
+import {splitArray} from './array/utilsArray'
+import {removeCharacters} from './string/utilString'
+export { isEmpty,isEmptyObject,formatNumberToDecimal,mapToHankaku,formatDate,splitArray,removeCharacters }
 /**
  *
  * @param {String} name
