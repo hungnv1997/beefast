@@ -6,8 +6,8 @@ import {
 import { mapToHankaku } from './jaLang/jaLang'
 import { formatDate } from './dateTime/dateTime'
 import {splitArray} from './array/utilsArray'
-import {removeCharacters} from './string/utilString'
-export { isEmpty,isEmptyObject,formatNumberToDecimal,mapToHankaku,formatDate,splitArray,removeCharacters }
+import {removeCharacters,removeAndReplaceWord} from './string/utilString'
+export { isEmpty,isEmptyObject,formatNumberToDecimal,mapToHankaku,formatDate,splitArray,removeCharacters,removeAndReplaceWord }
 /**
  *
  * @param {String} name
